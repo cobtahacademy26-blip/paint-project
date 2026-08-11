@@ -46,3 +46,22 @@ body {
 .services div {
     width: 50%;
 }
+.sectionServices {
+    background-color: black;
+    color: white;
+}
+.sectionServices h2 {
+    font-size: 7rem;
+    padding: 60px 47px;
+    margin: 0;
+    font-family: "Play", sans-serif;
+    font-weight: 100;
+}
+#div1 {
+    background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
+        url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/71e3cd42f_generated_4f601fea.png");
+}
+#div2 {
+    background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
+        url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/3d6ce490b_generated_3b7e9b12.png");
+}
