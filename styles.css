@@ -22,6 +22,7 @@
 }
 body {
     margin: 0;
+    font-family: "Play", sans-serif;
 }
 .hero {
     background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
@@ -45,17 +46,51 @@ body {
 }
 .services div {
     width: 50%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 30px;
 }
+.services div h3 {
+    font-family: "Play", sans-serif;
+    font-weight: 100;
+    font-size: 3.2rem;
+    line-height: 0.95;
+    margin: 10px 0;
+}
+.serviceDescription {
+    color: #c8c8c8;
+}
+.services div ul {
+    color: #c8c8c8;
+    list-style-type: none;
+    padding: 0;
+}
+
+.materials {
+    color: gray;
+    letter-spacing: 3px;
+}
+
 .sectionServices {
     background-color: black;
     color: white;
 }
+.services div a {
+    border: 1px solid;
+    padding: 10px 30px;
+}
+
 .sectionServices h2 {
     font-size: 7rem;
     padding: 60px 47px;
     margin: 0;
     font-family: "Play", sans-serif;
     font-weight: 100;
+    border-top: 1px solid rgba(88, 88, 88, 0.3);
+    border-bottom: 1px solid rgba(88, 88, 88, 0.3);
 }
 #div1 {
     background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
