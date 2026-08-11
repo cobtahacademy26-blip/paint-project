@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Play:wght@400;700&display=swap");
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    font-family: "Play", sans-serif;
+}
+.button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+.div1nav {
+    display: flex;
+    width: 18%;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    color: rgba(184, 177, 177, 0.98);
+}
+body {
+    margin: 0;
+}
+.hero {
+    background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
+        url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/e2f27bed7_generated_fc3fe742.png");
+    height: 83vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 45px;
+    font-family: "Play", sans-serif;
+}
+.hero h1 {
+    color: white;
+    font-size: 10.3rem;
+    font-weight: 500;
+    margin: 0;
+}
+.services {
+    display: flex;
+}
+.services div {
+    width: 50%;
+}
