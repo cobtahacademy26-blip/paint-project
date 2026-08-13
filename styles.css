@@ -100,3 +100,26 @@ body {
     background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
         url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/3d6ce490b_generated_3b7e9b12.png");
 }
+#div3 {
+    background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
+        url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/efc1286cb_generated_f12958e8.png");
+}
+#div4 {
+    background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
+        url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/395d2e258_generated_3418e1a0.png");
+}
+#div5 {
+    background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
+        url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/346e96d41_generated_9b21256a.png");
+}
+#div6 {
+    background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
+        url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/71e3cd42f_generated_4f601fea.png");
+}
+.mainCard {
+    display: flex;
+}
+.card {
+    width: 25%;
+    min-height: 40vh;
+}
