@@ -100,3 +100,51 @@ body {
     background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
         url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/3d6ce490b_generated_3b7e9b12.png");
 }
+#div3 {
+    background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
+        url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/efc1286cb_generated_f12958e8.png");
+    background-size: cover;
+    background-position-x: center;
+}
+#div4 {
+    background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
+        url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/395d2e258_generated_3418e1a0.png");
+    background-size: cover;
+    background-position-x: center;
+}
+#div5 {
+    background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
+        url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/346e96d41_generated_9b21256a.png");
+    background-size: cover;
+    background-position-x: center;
+}
+#div6 {
+    background: linear-gradient(to top, #000000, rgba(0, 0, 0, 0)),
+        url("https://media.base44.com/images/public/6a68c7f8481b363e794b23b3/71e3cd42f_generated_4f601fea.png");
+    background-size: cover;
+    background-position-x: center;
+}
+.mainCard {
+    display: flex;
+}
+.card {
+    width: 25%;
+    min-height: 56vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 20px;
+}
+.archive {
+    color: gray;
+    font-size: 0.7rem;
+}
+.nameCard {
+    font-weight: 100;
+    font-size: 1.2rem;
+    margin: 0;
+}
+.cardDescription {
+    font-size: 0.69rem;
+    color: #d2d1d1;
+}
