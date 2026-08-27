@@ -194,3 +194,15 @@ footer {
 .contacts img {
     filter: invert();
 }
+
+@media (max-width: 1000px) {
+    .navbar {
+    }
+    .div1nav {
+        width: 73%;
+        font-size: 2.9rem;
+    }
+    .button {
+        font-size: 1.7rem;
+    }
+}
