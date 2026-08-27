@@ -77,6 +77,7 @@ body {
 .sectionServices {
     background-color: black;
     color: white;
+    border-bottom: 1px solid rgba(88, 88, 88, 0.3);
 }
 .services div a {
     border: 1px solid;
@@ -147,4 +148,49 @@ body {
 .cardDescription {
     font-size: 0.69rem;
     color: #d2d1d1;
+}
+.social a {
+    width: calc(50% - 42px);
+    border: 1px solid rgba(88, 88, 88, 0.3);
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.social a:hover {
+    color: gray;
+}
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2.7rem;
+    font-weight: 700;
+    padding: 20px;
+    padding-bottom: 0;
+}
+footer {
+    background-color: #000000;
+    color: white;
+}
+.contacts a {
+    width: 33%;
+    border: 1px solid rgba(88, 88, 88, 0.3);
+    padding: 35px;
+    transition: 0.2s;
+}
+
+.contacts a:hover {
+    background-color: rgba(128, 128, 128, 0.14);
+}
+.contacts p {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contacts {
+    display: flex;
+    font-size: 1.1rem;
+}
+.contacts img {
+    filter: invert();
 }
