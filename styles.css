@@ -196,6 +196,9 @@ footer {
 }
 
 @media (max-width: 1000px) {
+    .services {
+        font-size: 2.6rem;
+    }
     .navbar {
     }
     .div1nav {
@@ -204,5 +207,33 @@ footer {
     }
     .button {
         font-size: 1.7rem;
+    }
+    .services div {
+        justify-content: space-between;
+    }
+    .mainCard {
+        display: block;
+    }
+    .card {
+        width: auto;
+    }
+    .archive {
+        font-size: 4.2rem;
+    }
+    .nameCard {
+        font-size: 3rem;
+    }
+    .cardDescription {
+        font-size: 3.3rem;
+    }
+    .social {
+        font-size: 3rem;
+    }
+    .contacts {
+        font-size: 1.6rem;
+        display: block;
+    }
+    .contacts p {
+        justify-content: center;
     }
 }
