@@ -12,6 +12,14 @@
     background-color: white;
     color: black;
     padding: 10px;
+    text-decoration: none;
+    transition: 0.17s;
+
+}
+.button:hover {
+    background-color: #bbbbbb;
+    color: #3c3c3c;
+
 }
 .div1nav {
     display: flex;
@@ -19,7 +27,20 @@
     justify-content: space-between;
     font-size: 1.1rem;
     color: rgba(184, 177, 177, 0.98);
+
 }
+.div1nav a {
+    color: rgba(184, 177, 177, 0.98);;
+    text-decoration: none;
+    transition: 0.3s
+
+}
+.div1nav a:hover {
+    color: rgba(63, 63, 63, 0.98);;
+
+}
+
+
 body {
     margin: 0;
     font-family: "Play", sans-serif;
@@ -177,6 +198,8 @@ footer {
     border: 1px solid rgba(88, 88, 88, 0.3);
     padding: 35px;
     transition: 0.2s;
+    text-decoration: none;
+    color: white;
 }
 
 .contacts a:hover {
